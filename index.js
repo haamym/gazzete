@@ -1,9 +1,6 @@
 const puppeteer = require("puppeteer");
 require("dotenv").config();
 
-// CHAT_ID = 656206588
-// TOKEN = 7007917128:AAGlSm0jLOe9ArvihTb1MpnoTBV50vGB48Q
-
 const telegramChatId = process.env.CHAT_ID;
 const telegramToken = process.env.TOKEN;
 
